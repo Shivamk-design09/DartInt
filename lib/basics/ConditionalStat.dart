@@ -4,12 +4,12 @@ import 'dart:io';
 
 void main(){
 
-  // int age = getValue();
-  // if(age<18){
-  //   print('Age is not valid');
-  // }else{
-  //   print('You can vote');
-  // }
+  int age = getValue();
+  if(age<18){
+    print('Age is not valid');
+  }else{
+    print('You can vote');
+  }
 
 
   print('Enter your weight');
