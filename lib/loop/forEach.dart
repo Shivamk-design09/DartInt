@@ -2,17 +2,17 @@
 
 void main() {
   // spread operator
-  // List <String> name = ['shivam','manish','rajuy'];
-  // List <String> friend = [,'katli','manish','satli'];
-  // List <String> allpeople = [...name,...friend];
-  // print(allpeople);
+  List <String> name = ['shivam','manish','rajuy'];
+  List <String> friends = ['katli','manish','satli'];
+  List <String> allpeople = [...name,...friends];
+  print(allpeople);
 
   // forEach loop in dart
-  //   List <String> friend = ['katli','manish','satli'];
-  // for(String allpeople in friend ){
-  //   print(allpeople);
-  // }
-
+    List <String> friend = ['katli','manish','satli'];
+  for(String allpeople in friend ){
+    print(allpeople);
+  }
+ 
 
 
 // we can performt loop while declaring List
